@@ -1,0 +1,124 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.theme-toggle:hover {
+  box-shadow: var(--shadow);
+}
+
+/* Icon toggling based on theme */
+html[data-theme="dark"] .theme-toggle .icon-light {
+  display: none;
+}
+
+html[data-theme="light"] .theme-toggle .icon-dark {
+  display: none;
+}
+
+.sidebar {
+  width: 280px;
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  flex-shrink: 0;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar-item {
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-item .default-text,
+.sidebar-item .hover-text {
+  font-size: 1.2rem;
+}
+
+.sidebar-item .hover-text {
+  display: none;
+}
+
+.sidebar-item:hover {
+  background-color: var(--hover-bg);
+}
+
+.sidebar-item:hover .default-text {
+  display: none;
+}
+
+.sidebar-item:hover .hover-text {
+  display: block;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.display-name {
+  font-size: 5rem;
+  font-weight: bold;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.char {
+  color: var(--text-alt);
+  transition: color 0.2s;
+}
+
+.hover-description {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.hover-description h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-alt);
+}
+
+.hover-description p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.hidden {
+  display: none;
+}
