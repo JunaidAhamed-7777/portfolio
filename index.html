@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaid Ahamed | Portfolio</title>
+    <link rel="stylesheet" href="styles/themes.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle">
+        <span class="icon-dark">☀️</span>
+        <span class="icon-light">🌙</span>
+    </button>
+    <div class="layout">
+        <nav class="sidebar">
+            <ul class="sidebar-list">
+                <li class="sidebar-item" data-category="about">
+                    <span class="default-text">About Me</span><span class="hover-text">>>About Me</span>
+                </li>
+                <li class="sidebar-item" data-category="experience">
+                    <span class="default-text">Experience</span><span class="hover-text">>>Experience</span>
+                </li>
+                <li class="sidebar-item" data-category="projects">
+                    <span class="default-text">Projects</span><span class="hover-text">>>Projects</span>
+                </li>
+                <li class="sidebar-item" data-category="education">
+                    <span class="default-text">Education</span><span class="hover-text">>>Education</span>
+                </li>
+                <li class="sidebar-item" data-category="achievements">
+                    <span class="default-text">Achievements</span><span class="hover-text">>>Achievements</span>
+                </li>
+                <li class="sidebar-item" data-category="certifications">
+                    <span class="default-text">Certifications</span><span class="hover-text">>>Certifications</span>
+                </li>
+                <li class="sidebar-item" data-category="skills">
+                    <span class="default-text">Skills</span><span class="hover-text">>>Skills</span>
+                </li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <div id="default-display" class="display-name">
+                <span class="char" data-char="J">J</span><!--
+                --><span class="char" data-char="u">u</span><!--
+                --><span class="char" data-char="n">n</span><!--
+                --><span class="char" data-char="a">a</span><!--
+                --><span class="char" data-char="i">i</span><!--
+                --><span class="char" data-char="d">d</span><!--
+                --><span class="char" data-char=" ">&nbsp;</span><!--
+                --><span class="char" data-char="A">A</span><!--
+                --><span class="char" data-char="h">h</span><!--
+                --><span class="char" data-char="a">a</span><!--
+                --><span class="char" data-char="m">m</span><!--
+                --><span class="char" data-char="e">e</span><!--
+                --><span class="char" data-char="d">d</span>
+            </div>
+            <div id="hover-display" class="hover-description hidden">
+                <h2 id="hover-heading"></h2>
+                <p id="hover-body"></p>
+            </div>
+        </main>
+    </div>
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
