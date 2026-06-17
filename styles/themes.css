@@ -1,0 +1,27 @@
+[data-theme="dark"] {
+  --bg: #000000;
+  --text: #c0ffc0;
+  --text-alt: #ffffff;
+  --sidebar-hover: #c0ffc0;
+  --hover-bg: rgba(192, 255, 192, 0.1);
+  --border: #c0ffc0;
+  --shadow: 0 0 5px rgba(192, 255, 192, 0.3);
+}
+
+[data-theme="light"] {
+  --bg: #fdf6e3;
+  --text: #1a3b1a;
+  --text-alt: #000000;
+  --sidebar-hover: #1a3b1a;
+  --hover-bg: rgba(26, 59, 26, 0.05);
+  --border: #1a3b1a;
+  --shadow: 0 0 5px rgba(26, 59, 26, 0.2);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  transition: background-color 0.3s, color 0.3s;
+}
