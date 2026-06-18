@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (defaultDisplay && hoverDisplay && hoverHeading && hoverBody) {
             const descriptions = {
-                about: { heading: 'About Me', body: 'Get to know more about me and who I am by clicking this category!' },
+                about: { heading: 'About Me', body: 'Want to know more about me and/or want to get in contact? Click this category!' },
                 experience: { heading: 'Experience', body: 'Explore my professional journey and the roles I’ve held.' },
                 projects: { heading: 'Projects', body: 'Check out the things I’ve built and contributed to.' },
                 education: { heading: 'Education', body: 'My academic background and what I’ve studied.' },
