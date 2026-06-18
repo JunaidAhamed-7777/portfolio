@@ -22,11 +22,11 @@
   z-index: 100;
 }
 
-/*
+
 .theme-toggle:hover {
   box-shadow: var(--shadow);
 }
-*/
+
 /* Icon toggling based on theme */
 html[data-theme="dark"] .theme-toggle .icon-light {
   display: none;
