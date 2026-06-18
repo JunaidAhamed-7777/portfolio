@@ -97,6 +97,12 @@ html[data-theme="light"] .theme-toggle .icon-dark {
   font-weight: 700;
   user-select: none;
   white-space: nowrap;
+  /* The painting as background – using a placeholder base64 for testing */
+  background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUQEhIVFRUVFRUVFRUVFRUVFRUWFhUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lICYtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKAA0AMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBAUGBwj/xABEEAABAwIDBQYHBgUFAQAAAAABAAIDBBEFEiExBkFRYXEiMoGRFCNS0fAUkaGx0RVDYnKS4f/EABoBAAIDAQEAAAAAAAAAAAAAAAABAgMFBb/EACYRAAICAQQDAQEBAAAAAAAAAAABAgMRIRMxQQUTEyJhcZGh8P/2gAMAwEAAhEDEQA/AP+/8QAGREAAgMBAQAAAAAAAAAAAAAAAAERAiEh/9oACAEBAAE/ABZ//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEABj8C///EABsQAQADAQEBAQAAAAAAAAAAAAEAESExQYH/2gAIAQEAAT8hZ3//2Q==');
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .char {
@@ -106,6 +112,11 @@ html[data-theme="light"] .theme-toggle .icon-dark {
 
 .large-char {
   font-size: 1.6em;
+}
+
+.baroque-char {
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 .hover-description {
