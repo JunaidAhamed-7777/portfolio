@@ -9,7 +9,7 @@
   top: 1rem;
   right: 1rem;
   background: none;
-  border: 1px solid var(--border);
+  /*border: 1px solid var(--border);*/
   color: var(--text);
   font-size: 1.5rem;
   cursor: pointer;
@@ -22,10 +22,11 @@
   z-index: 100;
 }
 
+/*
 .theme-toggle:hover {
   box-shadow: var(--shadow);
 }
-
+*/
 /* Icon toggling based on theme */
 html[data-theme="dark"] .theme-toggle .icon-light {
   display: none;
