@@ -10,3 +10,7 @@ portfolio/
 └── assets/
     └── (future baroque pattern files)
 ```
+
+All images taken from flaticon.com. Sources:
+[sun icon](https://www.flaticon.com/free-icon/sun_10370228)
+[moon icon](https://www.flaticon.com/free-icon/sleeping_2829162)
