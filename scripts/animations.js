@@ -26,11 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
             currentIndex++;
             setTimeout(animateLoop, 500);
         } else {
+            // At last letter: let it glow for 0.5s, then turn off, wait 1.5s, restart
             setTimeout(() => {
-                currentIndex = 0;
-                resetAllChars();
-                animateLoop();
-            }, 1500);
+                resetAllChars();  // Turn off the last letter's glow
+                setTimeout(() => {
+                    currentIndex = 0;
+                    animateLoop();  // Restart from the first letter
+                }, 1500);
+            }, 500);
         }
     }
     

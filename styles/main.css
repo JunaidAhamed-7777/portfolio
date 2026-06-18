@@ -109,8 +109,8 @@ html[data-theme="light"] .theme-toggle .icon-dark {
 }
 
 .baroque-char {
-  color: #39ff14 !important;
-  text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14 !important;
+  color: #5fff5f !important;
+  text-shadow: 0 0 8px #5fff5f, 0 0 15px #5fff5f !important;
 }
 
 .hover-description {
