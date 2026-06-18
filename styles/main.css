@@ -140,3 +140,13 @@ html[data-theme="light"] .theme-toggle .icon-dark {
 .hidden {
   display: none;
 }
+
+/* Light theme specific color adjustments */
+html[data-theme="light"] .char {
+  color: #0b5c0b;
+}
+
+html[data-theme="light"] .sidebar-item .default-text,
+html[data-theme="light"] .sidebar-item .hover-text {
+  color: #0b5c0b;
+}
