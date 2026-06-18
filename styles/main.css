@@ -35,6 +35,12 @@ html[data-theme="light"] .theme-toggle .icon-dark {
   display: none;
 }
 
+.theme-toggle .theme-icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: block;
+}
+
 .sidebar {
   width: 280px;
   border-right: 1px solid var(--border);
