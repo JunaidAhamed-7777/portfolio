@@ -73,6 +73,7 @@ html[data-theme="light"] .theme-toggle .icon-dark {
 
 .sidebar-item:hover {
   background-color: var(--hover-bg);
+  text-shadow: 0 0 5px var(--text), 0 0 10px var(--text);
 }
 
 .sidebar-item:hover .default-text {

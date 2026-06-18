@@ -1,11 +1,11 @@
 [data-theme="dark"] {
   --bg: #000000;
-  --text: #c0ffc0;
-  --text-alt: #ffffff;
-  --sidebar-hover: #c0ffc0;
-  --hover-bg: rgba(192, 255, 192, 0.1);
-  --border: #c0ffc0;
-  --shadow: 0 0 5px rgba(192, 255, 192, 0.3);
+  --text: #aaffaa;
+  --text-alt: #ccffcc;
+  --sidebar-hover: #aaffaa;
+  --hover-bg: rgba(170, 255, 170, 0.1);
+  --border: #aaffaa;
+  --shadow: 0 0 5px rgba(170, 255, 170, 0.3);
 }
 
 [data-theme="light"] {
