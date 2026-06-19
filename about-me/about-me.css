@@ -59,10 +59,10 @@
     margin-right: 0.3rem;
 }
 
-/* Ensure body background and text colors use CSS variables */
 body {
     margin: 0;
-    font-family: 'Playfair Display', serif;
-    background: var(--background);
+    font-family: 'Courier New', Courier, monospace;
+    background: var(--bg);
     color: var(--text);
+    transition: background-color 0.3s, color 0.3s;
 }
