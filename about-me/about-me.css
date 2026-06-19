@@ -29,7 +29,7 @@
 .alignment-left {
     text-align: left;
     max-width: 600px;
-    margin: 0 auto;
+    margin-left: 0rem;
     line-height: 1.6;
 }
 
