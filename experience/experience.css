@@ -202,11 +202,13 @@ html[data-theme="light"] .modal-overlay {
 }
 
 .glow-text {
-    text-shadow: 0 0 5px rgba(192, 255, 192, 0.4);
+    color: #ff6b6b;
+    text-shadow: 0 0 5px rgba(255, 107, 107, 0.4);
 }
 
 html[data-theme="light"] .glow-text {
-    text-shadow: 0 0 5px rgba(26, 59, 26, 0.3);
+    color: #b30000;
+    text-shadow: 0 0 5px rgba(179, 0, 0, 0.3);
 }
 
 .hidden {
