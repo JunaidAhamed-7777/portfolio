@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Experience | Junaid Ahamed</title>
+    <link rel="stylesheet" href="../styles/themes.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="experience.css">
+</head>
+<body>
+    <div class="exp-header">
+        <button id="home-button" class="theme-toggle">
+            <span class="icon-dark"><img src="../assets/home-dark.png" alt="Home" class="theme-icon"></span>
+            <span class="icon-light"><img src="../assets/home-light.png" alt="Home" class="theme-icon"></span>
+        </button>
+        <h1 class="exp-title"><span class="large-char-exp">W</span>ORK <span class="large-char-exp">E</span>XPERIENCE</h1>
+        <button id="theme-toggle" class="theme-toggle">
+            <span class="icon-dark"><img src="../assets/sun.png" alt="Light mode" class="theme-icon"></span>
+            <span class="icon-light"><img src="../assets/moon.png" alt="Dark mode" class="theme-icon"></span>
+        </button>
+    </div>
+
+    <div class="exp-content">
+        <div class="exp-box" data-company="flyrank">
+            <img src="../assets/flyrankAI.png" alt="Flyrank AI" class="exp-box-img">
+            <div class="exp-label">Flyrank AI</div>
+        </div>
+        <div class="exp-box" data-company="docwo">
+            <img src="../assets/docwo.png" alt="Docwo.com" class="exp-box-img">
+            <div class="exp-label">Docwo.com</div>
+        </div>
+        <div class="exp-box" data-company="firefox">
+            <img src="../assets/firefox.png" alt="Mozilla Firefox Club" class="exp-box-img">
+            <div class="exp-label">Mozilla Firefox Club</div>
+        </div>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div id="modal-box" class="modal-box">
+            <button id="modal-close" class="modal-close-btn">X</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="../scripts/main.js"></script>
+    <script src="experience.js"></script>
+</body>
+</html>

@@ -8,7 +8,7 @@ portfolio/
 │   ├── main.js          (DOM ready, theme toggle, hover descriptions)
 │   └── animations.js    (baroque text wave logic)
 └── assets/
-    └── (future baroque pattern files)
+    └── (img files)
 ```
 
 - All images taken from flaticon.com.
