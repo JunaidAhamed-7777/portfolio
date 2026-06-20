@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resetAllChars();
         pauseTimeout = setTimeout(() => {
             startLoop();
-        }, 1000);
+        }, 500);
     });
 
     animateLoop();
